@@ -76,7 +76,7 @@ const Home = () => {
 
      return (
           <div className="container">
-               <button className="new-game-btn" onClick={shuffleCards}>Start New Game</button>
+               <p className="turns">Turns: {turn}</p>
 
                <div className="grid">
                     {cards.map(card => (
@@ -90,7 +90,7 @@ const Home = () => {
                          />
                     ))}
                </div>
-               <p className="turns">Turns: {turn}</p>
+               <button className="new-game-btn" onClick={shuffleCards}>Start New Game</button>
 
                <footer>©2022, All Rights Reserved, Developed By <a href="https://iftakher-hossen.vercel.app/">Iftakher Hossen</a></footer>
           </div>

@@ -48,7 +48,7 @@
 
 footer {
   color: white;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   background-color: black;
   padding: 0.25rem 0.8rem;
   border-radius: 25px;
@@ -74,7 +74,7 @@ footer a:hover {
   }
 
   .turns {
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 1.4rem;
   }
 }
