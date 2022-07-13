@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.container .new-game-btn {
   color: white;
+  background-color: black;
+  border: 2px solid white;
+  padding: 0.7rem 2rem;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.container .new-game-btn:hover {
+  filter: brightness(0.7);
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.turns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: black;
+  border: 2px solid white;
+  padding: 0.7rem 2rem;
+}
+
+.grid {
+  height: 600px;
+  width: 600px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.grid div img {
+  width: 80%;
+}
+
+
+/* Responsive CSS */
+
+@media screen and (max-width: 600px) {
+  .grid {
+    height: 320px !important;
+    width: 100% !important;
+    padding-left: 1rem !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .turns {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1400px) {
+  .grid {
+    height: 470px !important;
   }
 }
