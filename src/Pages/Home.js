@@ -91,6 +91,8 @@ const Home = () => {
                     ))}
                </div>
                <p className="turns">Turns: {turn}</p>
+
+               <footer>©2022, All Rights Reserved, Developed By <a href="https://iftakher-hossen.vercel.app/">Iftakher Hossen</a></footer>
           </div>
      );
 };

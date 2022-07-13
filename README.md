@@ -1,4 +1,5 @@
-# Pokemon - Memory Game
+# Match Pokemon
+### Pokemon - Memory Game
 
 <h3> a pokemon-themed memory game, built with reactJS and css</h3>
  
@@ -11,4 +12,4 @@
 <img src="https://i.imgur.com/ASO1t0J.png" >
  
  <br />
-<h3>Deploy : https://pokemon-memorygame-git-main-marioleandro.vercel.app/</h3>
+<h3>Deployed : https://match-pokemon.vercel.app/</h3>
